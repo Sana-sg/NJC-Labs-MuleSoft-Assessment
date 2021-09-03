@@ -61,8 +61,8 @@ print('*************************************************************************
 #select row of movie of Salman khan
 print('Movies of Salman Khan')
 print('******************************************************************************************************************')
-query1='''SELECT * FROM MOVIES WHERE actor='Salman Khan' '''
-select_data(query1)
+query2='''SELECT * FROM MOVIES WHERE actor='Salman Khan' '''
+select_data(query2)
 print('******************************************************************************************************************')
 
 
